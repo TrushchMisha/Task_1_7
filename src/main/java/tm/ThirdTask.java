@@ -9,6 +9,10 @@ public class ThirdTask {
         System.out.print("Input the number: ");
         int n = in.nextInt();
 
+        if(n <0) {
+            System.out.println("Error. Number is negative");
+        }
+
         int counter = 1;
         for(int i = 1; i<=n; i++){
             counter *= i;
