@@ -6,7 +6,7 @@ public class FifthTask {
         for(int i=0;i<=50000;i++){
             for (int j =i;j!=0;j=j/10){
                 int a = j % 10;
-                if (a==4){
+                if (a==2){
                     counter++;
                     break;
                 }
